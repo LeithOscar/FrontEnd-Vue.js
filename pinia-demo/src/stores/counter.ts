@@ -5,7 +5,6 @@ export const useCounterStore = defineStore('counter',{
     state:()=>({
         counter: 0,
         numberOfChanges:0
-
     }),
 
     actions:{
