@@ -1,0 +1,16 @@
+
+get started
+
+use vite + Vue + pinia + Ts
+
+vite: https://vitejs.dev/ npm isntall view
+pinia: gestor de estados y compatible con Ts : https://pinia.vuejs.org/ npm install pinia
+vue.js
+
+create project
+
+ npm create vite
+     set name
+        vue + ts   
+            and get to new folder
+                install dependecies
