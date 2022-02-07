@@ -35,7 +35,7 @@ Pinia is a store library for Vue, it allows you to share a state across componen
 
 ## Basic syntax
 
-Attibute 'Setup'
+Attribute 'Setup'
 
 ```bash
 <script setup></script>
