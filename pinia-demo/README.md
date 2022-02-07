@@ -27,7 +27,7 @@ Chosse 'vue + ts'
 Go to the ptoject folder and install his dependecies ' npm install'
 
 
-##Pinia
+## Pinia
 
 Web [Pinia](https://pinia.vuejs.org/) to get more info.
 
