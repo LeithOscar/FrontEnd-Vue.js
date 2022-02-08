@@ -173,3 +173,17 @@ El código dentro se compila como el contenido de la
   una vez cuando se importa el componente por primera vez,
    el código dentro de <script setup> se ejecutará 
 cada vez que se cree una instancia del componente
+
+
+
+UNIT TEST
+
+vue.test utils
+npm i --save-dev @types/jest
+npm install @vue/test-utils --save-dev  https://github.com/vuejs/test-utils
+
+jest 
+npm install jest @types/jest ts-jest --save
+
+
+from : https://dev.to/vuesomedev/add-testing-to-vite-4b75
