@@ -16,4 +16,3 @@ createApp(App)
     .use(router)
     .use(BootstrapVue3)
     .mount('#app')
-

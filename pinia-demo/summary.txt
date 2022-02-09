@@ -1,5 +1,5 @@
 
-get started
+COOK BOOK
 
 use vite + Vue + pinia + Ts
 
@@ -179,6 +179,8 @@ cada vez que se cree una instancia del componente
 UNIT TEST
 
 vue.test utils
+more info: https://test-utils.vuejs.org/guide/#what-is-vue-test-utils
+
 npm i --save-dev @types/jest
 npm install @vue/test-utils --save-dev  https://github.com/vuejs/test-utils
 
@@ -190,3 +192,7 @@ https://github.com/vuejs/vue-jest
 
 
 from : https://dev.to/vuesomedev/add-testing-to-vite-4b75
+
+
+PINIA TEST
+https://pinia.vuejs.org/cookbook/testing.html#unit-testing-a-store
