@@ -185,5 +185,8 @@ npm install @vue/test-utils --save-dev  https://github.com/vuejs/test-utils
 jest 
 npm install jest @types/jest ts-jest --save
 
+more info about config:
+https://github.com/vuejs/vue-jest
+
 
 from : https://dev.to/vuesomedev/add-testing-to-vite-4b75
