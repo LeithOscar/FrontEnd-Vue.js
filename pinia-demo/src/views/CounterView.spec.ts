@@ -2,19 +2,28 @@ import {setActivePinia, createPinia} from 'pinia'
 
 import {shallowMount} from '@vue/test-utils';
 import CounterView from './CounterView.vue';
+// import { Button, Checkbox } from 'bootstrap-vue-3'
+
 
 describe('CounterView', () => {
+
+  //   const localVue = createLocalVue()
+  // localVue.use(Button)
+  // localVue.use(Checkbox)
+
 
         beforeEach(() => {
             // creates a fresh pinia and make it active so it's automatically picked
             // up by any useStore() call without having to pass it to it:
             // `useStore(pinia)`
-            setActivePinia(createPinia())
+            setActivePinia(createPinia());
         });
 
         it('when create instance shold be zero counter', () => {
 
-            const wrapper = shallowMount(CounterView, {});
+            const wrapper = shallowMount(CounterView, {
+
+            });
 
             expect(wrapper.html()).toContain('<h1>Counter View: 0</h1>');
         });

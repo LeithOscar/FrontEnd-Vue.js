@@ -13,18 +13,18 @@ describe('CounterView', () => {
         });
 
         it('increments', () => {
-          const counter = useCounterStore()
-          expect(counter.counter).toBe(0)
-          counter.incrementBy(5)
-          expect(counter.counter).toBe(5)
+          const counter = useCounterStore();
+          expect(counter.counter).toBe(0);
+          counter.incrementBy(5);
+          expect(counter.counter).toBe(5);
         });
 
         it('decrements', () => {
-          const counter = useCounterStore()
-          expect(counter.counter).toBe(0)
-          counter.incrementBy(5)
-          counter.decrementBy(3)
-          expect(counter.counter).toBe(2)
+          const counter = useCounterStore();
+          expect(counter.counter).toBe(0);
+          counter.incrementBy(5);
+          counter.decrementBy(3);
+          expect(counter.counter).toBe(2);
         })
     })
 })
